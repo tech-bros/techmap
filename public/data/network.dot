@@ -1,0 +1,21 @@
+techmap {
+  back -- java;
+  back -- php;
+  back -- go;
+  back -- kotlin;
+  back -- python;
+  java -- spring; 
+  java -- dropwizard;
+  java -- maven;
+  front -- ios;
+  front -- android;
+  front -- web;
+  ios -- swift;
+  ios -- objetivec;
+  android -- java;
+  android -- kotlin;
+  web -- js;
+  js -- react;
+  js -- vue;
+  js -- angular;
+  }

@@ -1,0 +1,72 @@
+{
+  "front": {
+    "label": "Frontend",
+    "size": 3,
+    "wiki": {
+      "es": {
+        "type": "Diseño de software",
+        "info": "En diseño de software el frontend es la parte del software que interactúa con los usuarios. La separación del sistema en frontends y backends es un tipo de abstracción que ayuda a mantener las diferentes partes del sistema separadas. La idea general es que el frontend sea el responsable de recolectar los datos de entrada del usuario, que pueden ser de muchas y variadas formas, y los transforma ajustándolos a las especificaciones que demanda el backend para poder procesarlos, devolviendo generalmente una respuesta que el frontend recibe y expone al usuario de una forma entendible para este.",
+        "link": "https://es.wikipedia.org/wiki/Front_end_y_back_end"
+      }
+    }
+  },
+  "back": {
+    "label": "Backend",
+    "size": 3,
+    "wiki": {
+      "es": {
+        "type": "Diseño de software",
+        "info": "En diseño de software el backend es la parte que procesa la entrada desde el frontend. La separación del sistema en frontends y backends es un tipo de abstracción que ayuda a mantener las diferentes partes del sistema separadas. La idea general es que el frontend sea el responsable de recolectar los datos de entrada del usuario, que pueden ser de muchas y variadas formas, y los transforma ajustándolos a las especificaciones que demanda el backend para poder procesarlos, devolviendo generalmente una respuesta que el frontend recibe y expone al usuario de una forma entendible para este.",
+        "link": "https://es.wikipedia.org/wiki/Front_end_y_back_end"
+      }
+    }
+  },
+  "java": {
+    "label": "Java",
+    "size": 2,
+    "group": 1,
+    "link": "www.oracle.com/java",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán, probablemente, a menos que tengan Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta computadoras avanzadas, desde teléfonos móviles hasta Internet, Java está en todas partes, si es ejecutado en una plataforma no tiene que ser recompilado para correr en otra. Java es, a partir de 2012, uno de los lenguajes de programación más populares en uso, particularmente para aplicaciones de cliente-servidor de web, con unos diez millones de usuarios reportados.",
+        "link": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+      }
+    }
+  },
+  "spring": {
+    "label": "Spring",
+    "group": 1,
+    "link": "www.spring.io",
+    "wiki": {
+      "es": {
+        "type": "Framework",
+        "info": "Spring es un framework para el desarrollo de aplicaciones y contenedor de inversión de control, de código abierto para la plataforma Java. Si bien las características fundamentales de Spring Framework pueden ser usadas en cualquier aplicación desarrollada en Java, existen variadas extensiones para la construcción de aplicaciones web sobre la plataforma Java EE. A pesar de que no impone ningún modelo de programación en particular, este framework se ha vuelto popular en la comunidad al ser considerado una alternativa, sustituto, e incluso un complemento al modelo EJB (Enterprise JavaBean).",
+        "link": "https://es.wikipedia.org/wiki/Spring_Framework"
+      }
+    }
+  },
+  "dropwizard": {
+    "label": "Dropwizard",
+    "group": 1,
+    "link": "www.dropwizard.io",
+    "wiki": {
+      "es": {
+        "type": "Framework",
+        "info": "Dropwizard es un framework de Java para desarrollar servicios RESTful de alto rendimiento. Reune todas las librerías necesarias para poder desarrollar aplicaciones de calidad productiva en el menor tiempo posible. Suele ser una alternativa, más liviana, a Spring."
+      }
+    }
+  },
+  "maven": {
+    "label": "Maven",
+    "group": 1,
+    "link": "www.maven.apache.org",
+    "wiki": {
+      "es": {
+        "type": "Package Manager",
+        "info": "Maven es una herramienta de software para la gestión y construcción de proyectos Java creada por Jason van Zyl, de Sonatype, en 2002. Es similar en funcionalidad a Apache Ant (y en menor medida a PEAR de PHP y CPAN de Perl), pero tiene un modelo de configuración de construcción más simple, basado en un formato XML. Maven utiliza un Project Object Model (POM) para describir el proyecto de software a construir, sus dependencias de otros módulos y componentes externos, y el orden de construcción de los elementos. Viene con objetivos predefinidos para realizar ciertas tareas claramente definidas, como la compilación del código y su empaquetado.",
+        "link": "https://es.wikipedia.org/wiki/Maven"
+      }
+    }
+  }
+}
