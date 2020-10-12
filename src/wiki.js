@@ -22,6 +22,11 @@ function Data(props) {
     <div className="content">
       <h1>{props.node.label}</h1>
       <h5>{props.node.wiki.es.type}</h5>
+      { props.node.link &&
+        <p>
+          <a href={`https://${props.node.link}`} target="_blank" rel="noopener noreferrer">{props.node.link}</a>
+        </p>
+      }
       <p>
         {props.node.wiki.es.info}
       </p>
@@ -29,11 +34,6 @@ function Data(props) {
       { props.node.wiki.es.link &&
         <p>
           Ver en <a href={props.node.wiki.es.link} target="_blank" rel="noopener noreferrer">Wikipedia</a>.
-        </p>
-      }
-      { props.node.link &&
-        <p>
-          <a href={`https://${props.node.link}`} target="_blank" rel="noopener noreferrer">{props.node.link}</a>
         </p>
       }
     </div>
