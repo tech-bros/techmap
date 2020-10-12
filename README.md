@@ -26,7 +26,7 @@ This file contains the metadata of each node in the network (a prettier name, li
 
 **Example**
 
-```json
+```js
 {
   "swift": { // node id declared in network.dot
     "label": "Swift", // a prettier name to show instead of the node id
