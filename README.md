@@ -2,6 +2,8 @@
 
 A map of technologies to see how they are related.
 
+Available at https://tech-bros.github.io/techmap.
+
 ## Contribute
 
 If you want to contribute to the map, you need to update two files.
@@ -64,6 +66,12 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Deploys the map to Github Pages.
+
+Visit the [techmap](https://tech-bros.github.io/techmap) to see the results.
 
 ## Contact
 
