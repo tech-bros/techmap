@@ -1,7 +1,7 @@
 {
   "front": {
     "label": "Frontend",
-    "size": 3,
+    "size": 5,
     "wiki": {
       "es": {
         "type": "Diseño de software",
@@ -12,7 +12,7 @@
   },
   "back": {
     "label": "Backend",
-    "size": 3,
+    "size": 5,
     "wiki": {
       "es": {
         "type": "Diseño de software",
@@ -23,7 +23,7 @@
   },
   "java": {
     "label": "Java",
-    "size": 2,
+    "size": 3,
     "group": 1,
     "link": "www.oracle.com/java",
     "wiki": {
@@ -36,6 +36,7 @@
   },
   "spring": {
     "label": "Spring",
+    "size": 2,
     "group": 1,
     "link": "www.spring.io",
     "wiki": {
@@ -48,6 +49,7 @@
   },
   "dropwizard": {
     "label": "Dropwizard",
+    "size": 2,
     "group": 1,
     "link": "www.dropwizard.io",
     "wiki": {
@@ -59,6 +61,7 @@
   },
   "maven": {
     "label": "Maven",
+    "size": 2,
     "group": 1,
     "link": "www.maven.apache.org",
     "wiki": {
@@ -66,6 +69,169 @@
         "type": "Package Manager",
         "info": "Maven es una herramienta de software para la gestión y construcción de proyectos Java creada por Jason van Zyl, de Sonatype, en 2002. Es similar en funcionalidad a Apache Ant (y en menor medida a PEAR de PHP y CPAN de Perl), pero tiene un modelo de configuración de construcción más simple, basado en un formato XML. Maven utiliza un Project Object Model (POM) para describir el proyecto de software a construir, sus dependencias de otros módulos y componentes externos, y el orden de construcción de los elementos. Viene con objetivos predefinidos para realizar ciertas tareas claramente definidas, como la compilación del código y su empaquetado.",
         "link": "https://es.wikipedia.org/wiki/Maven"
+      }
+    }
+  },
+  "go": {
+    "label": "Go",
+    "size": 3,
+    "group": 2,
+    "link": "www.golang.org",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Go es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C, que intenta ser dinámico como Python y con el rendimiento de C o C++. Ha sido desarrollado por Google y sus diseñadores iniciales fueron Robert Griesemer, Rob Pike y Ken Thompson. Actualmente está disponible en formato binario para los sistemas operativos Windows, GNU/Linux, FreeBSD y Mac OS X, pudiendo también ser instalado en estos y en otros sistemas mediante el código fuente.",
+        "link": "https://es.wikipedia.org/wiki/Go_(lenguaje_de_programación)"
+      }
+    }
+  },
+  "php": {
+    "label": "PHP",
+    "size": 3,
+    "group": 3,
+    "link": "www.php.net",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web. Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994. En la actualidad, la implementación de referencia de PHP es producida por The PHP Group. PHP originalmente significaba Personal Home Page (Página personal), pero ahora significa el inicialismo recursivo PHP: Hypertext Preprocessor.",
+        "link": "https://es.wikipedia.org/wiki/PHP"
+      }
+    }
+  },
+  "python": {
+    "label": "Python",
+    "size": 3,
+    "group": 4,
+    "link": "www.python.org",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.",
+        "link": "https://es.wikipedia.org/wiki/Python"
+      }
+    }
+  },
+  "kotlin": {
+    "label": "Kotlin",
+    "size": 3,
+    "group": 5,
+    "link": "www.kotlinlang.org",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Kotlin es un lenguaje de programación de tipado estático que corre sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript. Es desarrollado principalmente por JetBrains en sus oficinas de San Petersburgo (Rusia). El nombre proviene de la isla de Kotlin, situada cerca de San Petersburgo. Kotlin fue nombrado lenguaje del mes por la revista Dr. Dobb' Journal en su edición de enero de 2016. Aunque no tiene una sintaxis compatible con Java, Kotlin está diseñado para interoperar con código Java y es dependiente del código Java de su biblioteca de clases, tal como pueda ser el entorno de colecciones de Java (Java collections framework).",
+        "link": "https://es.wikipedia.org/wiki/Kotlin_(lenguaje_de_programaci%C3%B3n)"
+      }
+    }
+  },
+  "android": {
+    "label": "Android",
+    "size": 4,
+    "link": "www.android.com",
+    "wiki": {
+      "es": {
+        "type": "Sistema operativo",
+        "info": "Android es un sistema operativo móvil basado en núcleo Linux y otros software de código abierto. Fue diseñado para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes (Wear OS), automóviles (Android Auto) y televisores (Android TV).",
+        "link": "https://es.wikipedia.org/wiki/Android"
+      }
+    }
+  },
+  "web": {
+    "label": "Web",
+    "size": 4,
+    "wiki": {
+      "es": {
+        "type": "Plataforma",
+        "info": "En informática, la World Wide Web (WWW) o red informática mundial​ es un sistema de distribución de documentos de hipertexto o hipermedia interconectados y accesibles a través de Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener textos, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.",
+        "link": "https://es.wikipedia.org/wiki/World_Wide_Web"
+      }
+    }
+  },
+  "js": {
+    "label": "Javascript",
+    "size": 3,
+    "group": 6,
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,​ basado en prototipos, imperativo, débilmente tipado y dinámico. JavaScript se diseñó con una sintaxis similar a C, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes.",
+        "link": "https://es.wikipedia.org/wiki/JavaScript"
+      }
+    }
+  },
+  "react": {
+    "label": "React",
+    "size": 2,
+    "group": 6,
+    "link": "www.reactjs.org",
+    "wiki": {
+      "es": {
+        "type": "Framework",
+        "info": "React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. Han participado en el proyecto más de mil desarrolladores diferentes. React intenta ayudar a los desarrolladores a construir aplicaciones que usan datos que cambian todo el tiempo. Su objetivo es ser sencillo, declarativo y fácil de combinar. React sólo maneja la interfaz de usuario en una aplicación; React es la Vista en un contexto en el que se use el patrón MVC (Modelo-Vista-Controlador) o MVVM (Modelo-vista-modelo de vista). También puede ser utilizado con las extensiones de React-based que se encargan de las partes no-UI (que no forman parte de la interfaz de usuario) de una aplicación web.",
+        "link": "https://es.wikipedia.org/wiki/React"
+      }
+    }
+  },
+  "vue": {
+    "label": "Vue",
+    "size": 2,
+    "group": 6,
+    "link": "www.vuejs.org",
+    "wiki": {
+      "es": {
+        "type": "Framework",
+        "info": "Vue.js (también llamado Vue; pronunciado /vjuː/, como 'view') es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario y aplicaciones web de una sola página. Fue creada por Evan You, y es mantenida por él y el resto de los miembros del equipo, que vienen de compañías como Netlify y Netguru.",
+        "link": "https://en.wikipedia.org/wiki/Vue.js"
+      }
+    }
+  },
+  "angular": {
+    "label": "Angular",
+    "size": 2,
+    "group": 6,
+    "link": "www.angularjs.org",
+    "wiki": {
+      "es": {
+        "type": "Framework",
+        "info": "AngularJS (comúnmente llamado Angular.js o AngularJS), es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.",
+        "link": "https://es.wikipedia.org/wiki/AngularJS"
+      }
+    }
+  },
+  "ios": {
+    "label": "iOS",
+    "size": 4,
+    "link": "www.apple.com/es/ios",
+    "wiki": {
+      "es": {
+        "type": "Sistema operativo",
+        "info": "iOS es un sistema operativo móvil de la multinacional Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), después se ha usado en dispositivos como el iPod touch y el iPad. Apple no permite la instalación de iOS en hardware de terceros. iOS se deriva de macOS, que a su vez está basado en Darwin BSD, y por lo tanto es un sistema operativo Tipo Unix.",
+        "link": "https://es.wikipedia.org/wiki/IOS"
+      }
+    }
+  },
+  "swift": {
+    "label": "Swift",
+    "size": 3,
+    "group": 7,
+    "link": "www.swift.org",
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Swift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. Fue presentado en la WWDC 20147​ y está diseñado para integrarse con los Frameworks Cocoa y Cocoa Touch; puede usar cualquier biblioteca programada en Objective-C y llamar a funciones de C. También es posible desarrollar código en Swift compatible con Objective-C bajo ciertas condiciones. Swift tiene la intención de ser un lenguaje seguro, de desarrollo rápido y conciso. Usa el compilador LLVM incluido en Xcode 6. Fue presentado como un lenguaje propietario, pero en el año 2015, con la versión 2.2, pasó a ser de código abierto​ con la Licencia Apache 2.0.",
+        "link": "https://es.wikipedia.org/wiki/Swift_(lenguaje_de_programaci%C3%B3n)"
+      }
+    }
+  },
+  "objectivec": {
+    "label": "Objective-C",
+    "size": 3,
+    "group": 8,
+    "wiki": {
+      "es": {
+        "type": "Lenguaje de programación",
+        "info": "Objective-C es un lenguaje de programación orientado a objetos creado como un superconjunto de C para que implementase un modelo de objetos parecido al de Smalltalk. Originalmente fue creado por Brad Cox y la corporación StepStone en 1980. En 1988 fue adoptado como lenguaje de programación de NEXTSTEP y en 1992 fue liberado bajo licencia GPL para el compilador GCC. Actualmente se usa como un lenguaje principal de programación para Mac OS X, iOS y GNUstep, además de Swift.",
+        "link": "https://es.wikipedia.org/wiki/AngularJS"
       }
     }
   }

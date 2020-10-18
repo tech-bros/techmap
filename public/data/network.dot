@@ -11,7 +11,7 @@ techmap {
   front -- android;
   front -- web;
   ios -- swift;
-  ios -- objetivec;
+  ios -- objectivec;
   android -- java;
   android -- kotlin;
   web -- js;
